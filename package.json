@@ -1,0 +1,24 @@
+{
+    "name": "matter.cx",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "dev-skeleton": "nodemon skeleton-app.js",
+        "test": "nodemon ./tests/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "@VanillaCX/Schema": "github:VanillaCX/Schema",
+        "dotenv": "^16.3.1",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "helmet": "^7.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
